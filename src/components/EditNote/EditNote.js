@@ -2,6 +2,9 @@ import React, { Fragment, useState } from "react";
 import config from "../config"
 
 const EditNote = ({ expense }) => {
+
+    // Set states
+
     const [description, setDescription] = useState(expense.description);
     const [updateStatus, setUpdateStatus] = useState();
 

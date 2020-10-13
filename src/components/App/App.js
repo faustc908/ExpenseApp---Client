@@ -13,6 +13,7 @@ import { Route, Switch } from 'react-router-dom';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faSearchDollar } from "@fortawesome/free-solid-svg-icons";
 import './App.css';
+require("dotenv").config();
 
 library.add(faSearchDollar);
 
