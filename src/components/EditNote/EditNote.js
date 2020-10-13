@@ -42,7 +42,7 @@ const EditNote = ({ expense }) => {
                 <div>
                     <p className="editDesc">
                         If you want to edit the note add the entire new note below:
-          </p>
+                 </p>
                 </div>
                 <div>
                     <input

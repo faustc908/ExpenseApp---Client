@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import EditNote from "../EditNote/EditNote";
+import "./TransactionForm.css"
 
 // Render for user added expenses
 
