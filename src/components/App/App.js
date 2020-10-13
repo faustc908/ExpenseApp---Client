@@ -8,7 +8,7 @@ import NavBar from '../NavBar/NavBar';
 import InputExpense from '../InputExpense/InputExpense';
 import TransactionForm from '../TransactionForm/TransactionForm';
 import config from '../config';
-import { GlobalProvider } from '../../context/GlobalState';
+import { ContextProvider } from '../../context/GlobalState';
 import { Route, Switch } from 'react-router-dom';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faSearchDollar } from "@fortawesome/free-solid-svg-icons";
@@ -64,7 +64,7 @@ function App() {
   // Render Components
 
   return (
-    <GlobalProvider>
+    <ContextProvider>
       <NavBar />
       <Switch>
         <Route exact path='/' component={LandingPage} />
@@ -79,7 +79,7 @@ function App() {
           </div>}
         />
       </Switch>
-    </GlobalProvider>
+    </ContextProvider>
   );
 }
 

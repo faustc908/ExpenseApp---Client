@@ -5,7 +5,7 @@
     margin-top: 75px; 
     font-style: italic;
     font-size: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .cards{
@@ -18,7 +18,7 @@
 }
 
 .card1 {
-    float:left;
+    float: left;
     border: 1px solid black;
     width: 200px;
     background-color: rgb(255, 255, 255);
@@ -26,7 +26,7 @@
 }
 
 .card2 {
-    float:center;
+    float: center;
     border: 1px solid black;
     width: 200px;
     background-color: rgb(255, 255, 255);
@@ -34,13 +34,24 @@
 }
 
 .card3 {
-    float:right;
+    float: right;
     border: 1px solid black;
     width: 200px;
     background-color: rgb(255, 255, 255);
     padding: 15px;
 }
 
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   text-align: center;
+   border-top: 1px solid black;
+   font-style: italic;
+}
 
 @media (max-width: 320px) {
     .Appdesc{
@@ -48,6 +59,6 @@
       min-width: 80%;
       margin: 10px;
       margin-left: 25px;
-      float:center;
+      float: center;
     }
   }
