@@ -5,7 +5,6 @@ import { TransactionList } from '../TransactionList/TransactionList';
 import { AddTransaction } from '../AddTransaction/AddTransaction';
 import LandingPage from '../LandingPage/LandingPage';
 import NavBar from '../NavBar/NavBar'
-import Footer from '../Footer/Footer'
 import InputExpense from '../InputExpense/InputExpense'
 import TransactionForm from '../TransactionForm/TransactionForm'
 import config from '../config'

@@ -37,9 +37,9 @@ const EditNote = ({ expense }) => {
         <Fragment>
             <div className="inputForm">
                 <div>
-                    <h4 className="editDesc">
+                    <p className="editDesc">
                         If you want to edit the note add the entire new note below
-          </h4>
+          </p>
                 </div>
                 <div>
                     <input
@@ -51,7 +51,7 @@ const EditNote = ({ expense }) => {
                 </div>
                 <div>
                     <button
-                        className="inputButton"
+                        className="btn"
                         type="button"
                         onClick={updateDescription}
                     >

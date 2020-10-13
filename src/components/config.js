@@ -1,3 +1,3 @@
 export default {
-    API_ENDPOINT: "",
+    API_ENDPOINT: "https://serene-waters-47625.herokuapp.com",
 }

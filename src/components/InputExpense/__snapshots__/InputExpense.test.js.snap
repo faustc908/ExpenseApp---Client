@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputExpense component renders a InputExpense by default 1`] = `
+<div
+  className="input"
+>
+  <h1
+    className="appDesc"
+  >
+    User Notes
+  </h1>
+  <p>
+    Please enter notes below
+  </p>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="inputBox"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      Add note
+    </button>
+  </form>
+</div>
+`;
