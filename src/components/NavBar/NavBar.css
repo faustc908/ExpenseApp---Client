@@ -32,3 +32,16 @@
     border-bottom: 1px solid black;
     min-width: 100%;
 }
+
+
+@media (min-width: 320px) {
+    .left{
+        font-size: 15px;
+    }
+    .projectlink1{
+        font-size:13px;
+    }
+    .projectlink2{
+        font-size:13px;
+    }
+  }

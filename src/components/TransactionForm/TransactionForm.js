@@ -15,7 +15,7 @@ const TransactionForm = ({ expense, removeExpense }) => {
                         </div>
                         <div>
                             <button
-                                className="btn"
+                                className="btn3"
                                 type="submit"
                                 onClick={() => removeExpense(expense.expense_id)}
                             >

@@ -1,10 +1,20 @@
 .Appdesc {
     float: center;
     margin-left: 100px;
-    margin-right: 150px;
+    margin-right: 100px;
     margin-top: 75px;
-    max-width: 40%;
+    max-width: 70%;
     font-style: italic;
-    font-size: 22px;
+    font-size: 20px;
     padding-bottom: 220px;
 }
+
+
+@media (max-width: 320px) {
+    .Appdesc{
+      font-size: 17px;
+      min-width: 80%;
+      
+      float:center;
+    }
+  }

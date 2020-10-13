@@ -51,7 +51,7 @@ const EditNote = ({ expense }) => {
                 </div>
                 <div>
                     <button
-                        className="btn"
+                        className="btn2"
                         type="button"
                         onClick={updateDescription}
                     >
