@@ -1,12 +1,44 @@
 .Appdesc {
-    float: center;
+    text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 75px;
-    max-width: 70%;
+    margin-top: 75px; 
     font-style: italic;
     font-size: 20px;
-    padding-bottom: 220px;
+    padding-bottom: 100px;
+}
+
+.cards{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.card1 {
+    float:left;
+    border: 1px solid black;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.card2 {
+    float:center;
+    border: 1px solid black;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.card3 {
+    float:right;
+    border: 1px solid black;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
 }
 
 
