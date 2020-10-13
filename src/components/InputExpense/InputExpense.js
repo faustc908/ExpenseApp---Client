@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import config from "../config"
+import config from "../config";
+import "./InputExpense.css";
 
 const InputExpense = ({ updateExpense }) => {
     const [description, setDescription] = useState("");
@@ -30,7 +31,7 @@ const InputExpense = ({ updateExpense }) => {
     return (
         <div className="input">
             <h1 className="appDesc">User Notes</h1>
-            <p>Please enter notes below</p>
+            <h4 className='enter'>Please enter notes below:</h4>
             <form onSubmit={onSubmitForm}>
                 <input
                     className="inputBox"

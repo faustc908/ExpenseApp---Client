@@ -38,7 +38,7 @@ const EditNote = ({ expense }) => {
             <div className="inputForm">
                 <div>
                     <p className="editDesc">
-                        If you want to edit the note add the entire new note below
+                        If you want to edit the note add the entire new note below:
           </p>
                 </div>
                 <div>

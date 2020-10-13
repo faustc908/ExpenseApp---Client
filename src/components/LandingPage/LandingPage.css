@@ -14,7 +14,8 @@
     .Appdesc{
       font-size: 17px;
       min-width: 80%;
-      
+      margin: 10px;
+      margin-left: 25px;
       float:center;
     }
   }

@@ -1,0 +1,10 @@
+.appDesc {
+    border-top: 3px solid black;
+    padding-top: 15px;
+}
+
+.enter{
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 10px;
+}
