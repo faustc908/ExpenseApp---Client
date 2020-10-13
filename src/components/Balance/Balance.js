@@ -12,6 +12,7 @@ export const Balance = () => {
 
   return (
     <>
+      <p>Enter your expenses and funds into the calculator to see what your budget is.  Keep track of your total budget, sales, and nuances in your expenses with the notes section.</p>
       <h2>
         Expense Tracker
     </h2>

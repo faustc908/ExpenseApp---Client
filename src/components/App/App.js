@@ -4,10 +4,10 @@ import { IncomeExpenses } from '../IncomeExpenses/IncomeExpenses';
 import { TransactionList } from '../TransactionList/TransactionList';
 import { AddTransaction } from '../AddTransaction/AddTransaction';
 import LandingPage from '../LandingPage/LandingPage';
-import NavBar from '../NavBar/NavBar'
-import InputExpense from '../InputExpense/InputExpense'
-import TransactionForm from '../TransactionForm/TransactionForm'
-import config from '../config'
+import NavBar from '../NavBar/NavBar';
+import InputExpense from '../InputExpense/InputExpense';
+import TransactionForm from '../TransactionForm/TransactionForm';
+import config from '../config';
 import { GlobalProvider } from '../../context/GlobalState';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
@@ -73,7 +73,8 @@ function App() {
             <AddTransaction />
             <InputExpense updateExpense={updateExpense} />
             <TransactionForm expense={expense} removeExpense={removeExpense} />
-          </div>} />
+          </div>}
+        />
       </Switch>
     </GlobalProvider>
   );
