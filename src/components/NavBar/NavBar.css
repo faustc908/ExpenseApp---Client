@@ -10,7 +10,7 @@
 
 .left {
     float:left; 
-    font-size: 23px; 
+    font-size: 26px; 
     font-style: italic;
     padding-top: 10px;
     padding-left: 10px;
@@ -33,15 +33,26 @@
     min-width: 100%;
 }
 
+.icon {
+    float:left;
+    color: green;
+    font-size:45px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
 
 @media (max-width: 320px) {
     .left{
-        font-size: 15px;
+        font-size: 17px;
     }
-    .projectlink1{
-        font-size:13px;
+    .projectLink1{
+        font-size:14px;
     }
-    .projectlink2{
-        font-size:13px;
+    .projectLink2{
+        font-size:14px;
+    }
+    .icon{
+        font-size: 40px;
     }
   }

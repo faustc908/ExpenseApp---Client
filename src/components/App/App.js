@@ -10,8 +10,11 @@ import TransactionForm from '../TransactionForm/TransactionForm';
 import config from '../config';
 import { GlobalProvider } from '../../context/GlobalState';
 import { Route, Switch } from 'react-router-dom';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faSearchDollar } from "@fortawesome/free-solid-svg-icons";
 import './App.css';
 
+library.add(faSearchDollar);
 
 function App() {
 
