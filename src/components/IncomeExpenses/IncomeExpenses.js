@@ -8,12 +8,12 @@ export const IncomeExpenses = () => {
 
   const amounts = transactions.map(transaction => transaction.amount);
 
-  const income = amounts
+  const addMoney = amounts
     .filter(item => item > 0)
     .reduce((acc, item) => (acc += item), 0)
     .toFixed(2);
 
-  const expense = (
+  const purchase = (
     amounts.filter(item => item < 0).reduce((acc, item) => (acc += item), 0) *
     -1
   ).toFixed(2);
@@ -22,11 +22,11 @@ export const IncomeExpenses = () => {
     <div className="inc-exp-container">
       <div>
         <h4>Funds</h4>
-        <p className="money plus">{income}</p>
+        <p className="money plus">{addMoney}</p>
       </div>
       <div>
         <h4>Expenses</h4>
-        <p className="money minus">{expense}</p>
+        <p className="money minus">{purchase}</p>
       </div>
     </div>
   )

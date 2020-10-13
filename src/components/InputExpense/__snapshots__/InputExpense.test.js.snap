@@ -9,9 +9,11 @@ exports[`InputExpense component renders a InputExpense by default 1`] = `
   >
     User Notes
   </h1>
-  <p>
-    Please enter notes below
-  </p>
+  <h4
+    className="enter"
+  >
+    Please enter notes below:
+  </h4>
   <form
     onSubmit={[Function]}
   >
