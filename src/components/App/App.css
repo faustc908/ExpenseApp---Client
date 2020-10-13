@@ -20,7 +20,10 @@ body{
   padding: 15px;
   padding-bottom: 80px;
   border: 1px solid black;
-  margin: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  margin-top: 25px;
 }
 
 h1 {
