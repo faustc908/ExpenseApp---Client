@@ -1,0 +1,10 @@
+.Appdesc {
+    float: center;
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 75px;
+    max-width: 40%;
+    font-style: italic;
+    font-size: 22px;
+    padding-bottom: 220px;
+}
