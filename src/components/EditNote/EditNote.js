@@ -52,6 +52,7 @@ const EditNote = ({ expense }) => {
                         onChange={updateDescriptionHandler}
                     />
                 </div>
+                <div className="update">{updateStatus}</div>
                 <div>
                     <button
                         className="btn2"
@@ -59,9 +60,8 @@ const EditNote = ({ expense }) => {
                         onClick={updateDescription}
                     >
                         Edit note
-          </button>
+                    </button>
                 </div>
-                <div>{updateStatus}</div>
             </div>
         </Fragment>
     );

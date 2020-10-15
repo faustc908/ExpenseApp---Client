@@ -50,15 +50,17 @@
     padding-right: 5px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     .left{
         font-size: 17px;
     }
     .projectLink1{
         font-size:14px;
+        padding: 8px;
     }
     .projectLink2{
         font-size:14px;
+        padding: 8px;
     }
     .icon{
         font-size: 40px;

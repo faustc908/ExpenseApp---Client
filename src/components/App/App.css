@@ -180,7 +180,7 @@ input[type='number'] {
 
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
   .container {
     max-width: 100%;
     margin: 0;
@@ -190,8 +190,9 @@ input[type='number'] {
   }
 }
 
+
 @media only screen 
-and (min-device-width : 768px) 
+and (min-device-width : 420px) 
 and (max-device-width : 1024px){
   .container {
     max-width: 100%;

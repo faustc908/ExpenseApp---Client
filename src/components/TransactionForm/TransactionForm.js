@@ -11,9 +11,7 @@ const TransactionForm = ({ expense, removeExpense }) => {
                 {expense.map((expense) => (
                     <div key={expense.expense_id}>
                         <p>{expense.description}</p>
-                        <div>
-                            <EditNote expense={expense} />
-                        </div>
+                        <EditNote expense={expense} />
                         <div>
                             <button
                                 className="btn3"
@@ -21,8 +19,10 @@ const TransactionForm = ({ expense, removeExpense }) => {
                                 onClick={() => removeExpense(expense.expense_id)}
                             >
                                 Delete Note
-              </button>
+                            </button>
+
                         </div>
+
                     </div>
                 ))}
             </div>
