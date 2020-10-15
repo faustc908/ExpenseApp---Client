@@ -7,12 +7,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBar = () => {
     return (
-        <div className='navBar'>
+        <nav role="navigation" className='navBar'>
             <FontAwesomeIcon className="icon" icon="search-dollar" alt="dollar icon" />
             <h1 className='left' aria-level="1">ExpenseApp</h1>
             <Link to="/tracker" className="projectLink1">Start tracking</Link>
             <a className="projectLink2" href="https://expense-app-client.vercel.app/">Home</a>
-        </div>
+        </nav>
     )
 }
 
