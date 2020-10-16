@@ -5,7 +5,7 @@
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-style: italic;  
-    border-right: 1px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
 }
 
 .projectLink1:hover {
@@ -36,8 +36,9 @@
 .navBar{
     color: rgb(0, 0, 0);
     height: 55px;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid black;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,254,255,1) 0%, rgba(0,212,255,1) 100%);; 
+    border-bottom: 2px solid black;
     min-width: 100%;
 }
 

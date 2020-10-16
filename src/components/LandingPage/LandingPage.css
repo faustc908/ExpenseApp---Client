@@ -21,24 +21,33 @@
     float: left;
     border: 1px solid black;
     width: 200px;
-    background-color: rgb(255, 255, 255);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,254,255,1) 0%, rgba(0,212,255,1) 100%);; 
     padding: 15px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .card2 {
     float: center;
     border: 1px solid black;
     width: 200px;
-    background-color: rgb(255, 255, 255);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,254,255,1) 0%, rgba(0,212,255,1) 100%);; 
     padding: 15px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .card3 {
     float: right;
     border: 1px solid black;
     width: 200px;
-    background-color: rgb(255, 255, 255);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,254,255,1) 0%, rgba(0,212,255,1) 100%);; 
     padding: 15px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 footer{
@@ -46,10 +55,11 @@ footer{
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: rgb(255, 255, 255);
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,254,255,1) 0%, rgba(0,212,255,1) 100%);; 
    color: rgb(0, 0, 0);
    text-align: center;
-   border-top: 1px solid black;
+   border-top: 2px solid black;
    font-style: italic;
 }
 
