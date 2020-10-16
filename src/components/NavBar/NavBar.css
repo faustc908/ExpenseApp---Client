@@ -56,12 +56,13 @@
         font-size: 17px;
     }
     .projectLink1{
-        font-size:14px;
+        font-size:15px;
         padding: 8px;
     }
     .projectLink2{
-        font-size:14px;
+        font-size:15px;
         padding: 8px;
+        border-right: none;
     }
     .icon{
         font-size: 40px;
