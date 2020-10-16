@@ -7,19 +7,21 @@ export const AddTransaction = () => {
   const [text, setText] = useState('');
   const [amount, setAmount] = useState(0);
 
+
   const { addTransaction } = useContext(GlobalContext);
 
   const onSubmit = e => {
     e.preventDefault();
-
     const newExpense = {
       id: Math.floor(Math.random() * 100000000),
       text,
       amount: +amount
     }
-
+    setText('');
+    setAmount('');
     addTransaction(newExpense);
   }
+
 
   // Render transaction form
 
