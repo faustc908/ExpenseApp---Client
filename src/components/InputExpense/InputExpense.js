@@ -32,7 +32,7 @@ const InputExpense = ({ updateExpense }) => {
         <div className="input">
             <h1 className="appDesc">User Notes</h1>
             <h4 className='enter'>Please enter notes below:</h4>
-            <form onSubmit={onSubmitForm}>
+            <form onSubmit={onSubmitForm} aria-label='usernote'>
                 <input
                     className="inputBox"
                     type="text"

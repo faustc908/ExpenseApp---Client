@@ -28,7 +28,7 @@ export const AddTransaction = () => {
   return (
     <>
       <h3>Add new expense</h3>
-      <form onSubmit={onSubmit}>
+      <form onSubmit={onSubmit} aria-label='amount'>
         <div className="form-control">
           <label htmlFor="text">Expense description:</label>
           <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter text..." />
