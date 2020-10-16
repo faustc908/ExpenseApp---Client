@@ -34,6 +34,7 @@ const InputExpense = ({ updateExpense }) => {
             <h4 className='enter'>Please enter notes below:</h4>
             <form onSubmit={onSubmitForm} aria-label='usernote'>
                 <input
+                    aria-label="usernote"
                     className="inputBox"
                     type="text"
                     value={description}

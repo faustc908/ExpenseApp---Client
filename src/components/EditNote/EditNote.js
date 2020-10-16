@@ -46,6 +46,7 @@ const EditNote = ({ expense }) => {
                 </div>
                 <div>
                     <input
+                        aria-label="usernote"
                         className="inputBox2"
                         type="text"
                         value={description}
